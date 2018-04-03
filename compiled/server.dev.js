@@ -88,8 +88,7 @@ var ACTIVATE_CHARGE_ROUTE = exports.ACTIVATE_CHARGE_ROUTE = '/activate_charge';
 var APP_NAME = exports.APP_NAME = 'testapp9999'; //Local dev
 /* export const APP_NAME = 'devapp999'; //local live */
 
-var APP_URL = exports.APP_URL = 'https://contentart.herokuapp.com';
-//export const APP_URL = 'https://contentart.herokuapp.com'; //Local dev
+var APP_URL = exports.APP_URL = 'https://contentart.herokuapp.com'; //Local dev
 
 /* export const APP_URL = 'https://84c4484d.ngrok.io'; //local live */
 
@@ -389,8 +388,7 @@ var options = {
 };
 
 var pgp = __webpack_require__(7)(options);
-var connectionString = 'postgres://lscbefdvgkkhho:5d5e622a66aa9345ac0120284caca5f4351d3c024497c2a8cd031dc55709fbe7@ec2-23-21-121-220.compute-1.amazonaws.com:5432/d88e3905stiaec?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory';
-//var connectionString = 'postgres://postgres:TechAdmin@localhost/shopify-app-development';
+var connectionString = 'postgres://postgres:TechAdmin@localhost/shopify-app-development';
 var pdb = pgp(connectionString);
 
 var SHOPIFY_API_KEY = process.env.SHOPIFY_API_KEY;
@@ -738,6 +736,7 @@ var options = {
 var pgp = __webpack_require__(7)(options);
 
 var connectionString = 'postgres://lscbefdvgkkhho:5d5e622a66aa9345ac0120284caca5f4351d3c024497c2a8cd031dc55709fbe7@ec2-23-21-121-220.compute-1.amazonaws.com:5432/d88e3905stiaec?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory';
+//var connectionString = 'postgres://lscbefdvgkkhho:5d5e622a66aa9345ac0120284caca5f4351d3c024497c2a8cd031dc55709fbe7@ec2-23-21-121-220.compute-1.amazonaws.com/d88e3905stiaec';
 var pdb = pgp(connectionString);
 
 var Shop = _db.Models.Shop;
