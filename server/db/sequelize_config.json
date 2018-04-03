@@ -15,11 +15,11 @@
     "logging": false
   },
   "production": {
-    "use_env_variable": "postgres://lscbefdvgkkhho:5d5e622a66aa9345ac0120284caca5f4351d3c024497c2a8cd031dc55709fbe7@ec2-23-21-121-220.compute-1.amazonaws.com:5432/d88e3905stiaec",
-    "username": "lscbefdvgkkhho",
-    "password": "5d5e622a66aa9345ac0120284caca5f4351d3c024497c2a8cd031dc55709fbe7",
-    "database": "d88e3905stiaec",
-    "host": "ec2-23-21-121-220.compute-1.amazonaws.com",
+    "use_env_variable": "postgres://cvciwdpduzkykq:53d8798d93a254c4298bfdaedd707f82c39318746b7e7591ef288bee14f1f453@ec2-54-221-192-231.compute-1.amazonaws.com:5432/d4s36v1s9fo712",
+    "username": "cvciwdpduzkykq",
+    "password": "53d8798d93a254c4298bfdaedd707f82c39318746b7e7591ef288bee14f1f453",
+    "database": "d4s36v1s9fo712",
+    "host": "ec2-54-221-192-231.compute-1.amazonaws.com",
     "dialect": "postgres"
   }
 }
